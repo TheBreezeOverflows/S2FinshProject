@@ -1,0 +1,46 @@
+﻿.main [data-module-template="promos"] [data-unit-id="apple-music"] .unit-copy-wrapper .headline {
+	color:#ffffff
+}
+
+/* line break */
+.main [data-module-template="promos"] [data-unit-id="apple-music"] .unit-copy-wrapper .headline {
+    width: 94%;
+    max-width:530px
+}
+
+@media only screen and (max-width: 1068px) {
+    .main [data-module-template="promos"] [data-unit-id="apple-music"] .unit-copy-wrapper .headline {
+        width: 95%;
+        max-width:400px
+    }
+}
+
+@media only screen and (max-width: 734px) {
+    .main [data-module-template="promos"] [data-unit-id="apple-music"] .unit-copy-wrapper .headline {
+        max-width: 330px
+    }
+}
+
+.main [data-module-template="promos"] [data-unit-id="apple-music"] .unit-copy-wrapper .headline {
+    font-size: 36px;
+    line-height: 1.2;
+}
+@media only screen and (max-width: 1068px) {
+    .main [data-module-template="promos"] [data-unit-id="apple-music"] .unit-copy-wrapper .headline {
+        font-size: 28px;
+        line-height: 1.225;
+    }
+}
+
+
+/* AM icon */
+.main [data-module-template="promos"] [data-unit-id="apple-music"] .unit-copy-wrapper .icon-wrapper {
+	margin-top: 1.4em
+}
+
+.main [data-module-template="promos"] [data-unit-id="apple-music"] .logo-image-music-icon {
+	margin: 0 auto;
+}
+
+
+

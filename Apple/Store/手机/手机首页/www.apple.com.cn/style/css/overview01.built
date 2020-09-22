@@ -1,0 +1,260 @@
+﻿/*section-help-me-choose*/
+
+@media only screen and (max-width: 734px) {
+    .section-help-me-choose .flex-copy-wrapper {
+        max-width: 67%;
+    }
+}
+@media only screen and (max-width: 1068px) {
+    .section-help-me-choose .image-help-me-choose {
+        margin-left: 37px
+    }
+
+    html.text-zoom .section-help-me-choose .image-help-me-choose {
+        margin-left: auto
+    }
+}
+
+@media only screen and (max-width: 734px) {
+    .section-help-me-choose .image-help-me-choose {
+        margin-left: 0;
+        margin-top: 18px
+    }
+
+    html.text-zoom .section-help-me-choose .image-help-me-choose {
+        margin-left: 0
+    }
+}
+
+@media only screen and (max-width: 734px) {
+    .section-help-me-choose .tile-cta {
+        padding-right: 0;
+        margin: 7px auto 0;
+        max-width: 100%
+    }
+}
+
+/*Apple Music full width*/
+.tile-apple-music .content-wrapper {
+    justify-content: center;
+    min-height: 500px;
+    height: 500px;
+}
+
+.tile-apple-music .content-wrapper .image-wrapper {
+    width: auto;
+    margin-top: auto;
+}
+
+@media only screen and (max-width: 1068px) {
+    .tile-apple-music .content-wrapper {
+        min-height: 350px;
+        height: 350px;
+    }
+
+    .tile-apple-music .content-wrapper .image-wrapper .music-image {
+        margin-left: -135.5px;
+    }
+}
+
+@media only screen and (max-width: 734px) {
+    .tile-apple-music .content-wrapper {
+        justify-content: space-between;
+        min-height: 490px;
+        height: auto;
+    }
+
+    .tile-apple-music .content-wrapper .image-wrapper .music-image {
+        margin-left: -217.5px;
+    }
+}
+
+.tile-apple-music .image-wrapper {
+    height: 384px;
+}
+
+@media only screen and (max-width: 1068px) {
+    .tile-apple-music .image-wrapper {
+        height: 328px
+    }
+}
+
+@media only screen and (max-width: 734px) {
+    .tile-apple-music .image-wrapper {
+        height: 287px
+    }
+}
+
+/** Pre-order **/
+
+.tile-iphone-11-pro .preorder-cnalt-copy-wrapper {
+    color: #86868b;
+    margin-top: 18px
+}
+
+@media only screen and (max-width: 1068px) {
+    .tile-iphone-11-pro .preorder-cnalt-copy-wrapper {
+        margin-top: 15px
+    }
+}
+
+@media only screen and (max-width: 734px) {
+    .tile-iphone-11-pro .preorder-cnalt-copy-wrapper {
+        margin-top: 15px;
+        max-width: 300px;
+        margin-left: auto;
+        margin-right: auto
+    }
+}
+
+.tile-iphone-11-pro .preorder-cnalt-copy {
+    margin-top: 6px
+}
+
+.tile-iphone-11-pro .preorder-cnalt-iup-copy{
+    margin-top: 20px
+}
+.section-hero .copy-wrapper .hero-cnalt-cta {
+    margin-top: 6px
+}
+
+.tile-iphone-11 .preorder-cnalt-copy-wrapper {
+    color: #86868b;
+    margin-top: 18px;
+}
+
+@media only screen and (max-width: 1068px) {
+    .tile-iphone-11 .preorder-cnalt-copy-wrapper {
+        margin-top: 15px;
+        max-width: 230px;
+    }
+}
+
+@media only screen and (max-width: 734px) {
+    .tile-iphone-11 .preorder-cnalt-copy-wrapper {
+        margin-top: 15px;
+        max-width: 300px;
+        margin-left: auto;
+    	margin-right: auto;
+    }
+}
+
+.tile-iphone-11 .preorder-cnalt-copy {
+    margin-top: 6px;
+}
+
+.tile-iphone-11 .preorder-cnalt-iup-copy{
+    margin-top: 20px;
+}
+
+.preorder-cnalt-copy-wrapper {
+    background: transparent;
+    border-color: #6e6e73;
+    color:#6e6e73;
+}
+
+.preorder-cnalt-copy-wrapper a {
+    color:#2997ff;
+}
+
+/* apple-pay start*/
+.tile-apple-pay .banner-container {
+	background-color: #ffffff;
+	width: auto;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+}
+
+.tile-apple-pay {
+    overflow:hidden
+}
+
+.tile-apple-pay .tile-headline-apple-pay {
+	margin-top: .2em;
+}
+
+@media only screen and (min-width: 1024px) {
+	.tile-apple-pay .tile-headline-apple-pay { 
+		margin-left: -39px;
+        margin-right: -39px;
+	}
+}
+
+.tile-apple-pay .tile-cta {
+	display: inline-block;
+	margin-top: 7px;
+}
+
+@media only screen and (max-width: 1068px) {
+	.tile-apple-pay .tile-cta {
+		margin-top: 6px;
+	}
+}
+
+.tile-apple-pay .banner-image-wrapper a.block{
+	position: relative;
+	display: block;
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+}
+
+/* apple-pay end*/
+
+.violator-secondary a{
+    color: #2997ff;
+}
+
+@media only screen and (max-width: 735px) { html[lang=zh-CN] .centersmall { padding-left: 0.4em; } }
+
+.tile-upgrade .headline-fix{
+    max-width: 440px;
+}
+@media only screen and (max-width: 1068px) {
+    .tile-upgrade .headline-fix {
+        max-width:278px
+    }
+}
+
+@media only screen and (max-width: 734px) {
+    .tile-upgrade .headline-fix {
+        max-width:288px
+    }
+}
+
+.width-fix{
+    max-width: 390px;
+}
+
+@media only screen and (max-width: 1068px) {
+    .width-fix {
+        max-width:278px
+    }
+}
+
+@media only screen and (max-width: 734px) {
+    .width-fix {
+        max-width:288px
+    }
+}
+
+/* WWDC start */
+.tile-iphone-se {
+    padding-top:150px
+}
+
+@media only screen and (max-width: 1068px) {
+    .tile-iphone-se {
+        padding-top:124px
+    }
+}
+
+@media only screen and (max-width: 734px) {
+    .tile-iphone-se {
+        padding-top:54px
+    }
+}
+/* WWDC end */

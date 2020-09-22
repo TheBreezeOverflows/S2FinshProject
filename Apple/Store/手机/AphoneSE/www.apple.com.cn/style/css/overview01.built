@@ -1,0 +1,58 @@
+﻿.section-buystrip-hero .buystrip-hero-module {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top:85px
+}
+
+@media only screen and (max-width: 1068px) {
+    .section-buystrip-hero .buystrip-hero-module {
+        margin-top:80px
+    }
+}
+
+@media only screen and (max-width: 734px) {
+    .section-buystrip-hero .buystrip-hero-module {
+        margin-top: 74px;
+        max-width:290px
+    }
+}
+
+.section-buystrip-hero .buystrip-hero-intro {
+    color:#a1a1a6
+}
+
+.section-buystrip-hero .buystrip-hero-cta {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    color:#2997ff
+}
+
+
+/*wechat fix AR*/
+
+html.wechat-fix .quicklook-component{display:none;}
+html.wechat-fix .quicklook-component.quicklook-cta-classic {
+    display: none
+}
+
+html.wechat-fix .quicklook-component.quicklook-cta-modern {
+    display: none
+}
+
+html.wechat-fix .section-ar .quicklook-hide {
+    display: block
+}
+
+/*fix US bug  A redundant line appears on "quick take" section except browser*/
+.no-edge .section-4k-video .subsection-quicktake{
+    background-color: #000;
+}
+
+/*temp added before US push*/
+html.hero-animation .section-hero:not(.fallback) .hero-section-content .hero-trade {
+        color: #86868b
+    }
+
+

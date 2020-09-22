@@ -1,0 +1,189 @@
+﻿.section-ipados .intro-copyblock h2, .section-ipados .intro-copyblock h3{
+	margin-top: .8em;
+}
+
+ .section-portability .connectivity-hardware .typography-caption{
+	position: absolute;
+	bottom: 63px;
+}
+
+@media only screen and (max-width: 1068px) {
+	.section-portability .connectivity-hardware .typography-caption{
+		bottom: 43px;
+	}
+}
+
+@media only screen and (max-width: 734px) {
+	.section-portability .connectivity-hardware .typography-caption{
+		bottom: 35px;
+	}
+}
+/* 20200401 */
+html.no-overview-enhanced .section-hero,
+html.no-js .section-hero,
+html.no-overview-enhanced .section-hero,
+html.no-js .section-hero{
+   padding-top:0;
+}
+@media only screen and (max-width: 735px) {
+   html.no-overview-enhanced .section-hero,
+html.no-js .section-hero,
+html.no-overview-enhanced .section-hero,
+html.no-js .section-hero{
+   padding-top:20px;
+}
+}
+.ribbon {
+    width: 100%;
+    position: absolute;
+    z-index: 3;
+    margin-top:0;
+    overflow:hidden;
+}
+.ribbon-wrapper {
+    width: 100%;
+    padding: 13px 0;
+    text-align: center;
+    color: #1D1D1F;
+    background-color: #F5F5F7;
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    -webkit-transition: background-color 1s ease-in-out 1.8s, color 1s ease-in-out 1.8s, -webkit-transform .8s ease-in-out;
+    transition: background-color 1s ease-in-out 1.8s, color 1s ease-in-out 1.8s, -webkit-transform .8s ease-in-out;
+    transition: transform .8s ease-in-out, background-color 1s ease-in-out 1.8s, color 1s ease-in-out 1.8s;
+    transition:transform .8s ease-in-out, background-color 1s ease-in-out 1.8s, color 1s ease-in-out 1.8s, -webkit-transform .8s ease-in-out
+}
+
+@media only screen and (max-width: 735px) {
+    .ribbon-wrapper {
+        background-color:#fff
+    }
+}
+
+.ribbon-content {
+    margin-left: auto;
+    margin-right: auto;
+    width: 980px;
+    display:block
+}
+
+@media only screen and (min-width: 1442px) {
+    .ribbon-content {
+        margin-left: auto;
+        margin-right: auto;
+        width:980px
+    }
+}
+
+@media only screen and (max-width: 1068px) {
+    .ribbon-content {
+        margin-left: auto;
+        margin-right: auto;
+        width:692px
+    }
+}
+
+@media only screen and (max-width: 735px) {
+    .ribbon-content {
+        margin-left: auto;
+        margin-right: auto;
+        width:87.5%
+    }
+}
+
+@media only screen and (max-width: 735px) {
+    .ribbon-content {
+        margin-left: auto;
+        margin-right: auto;
+        max-width:303px
+    }
+}
+
+.ribbon .icon-wrapper, .ribbon .icon-copy {
+    color: #06c;
+    -webkit-transition: color 1s ease-in-out 1.8s;
+    transition:color 1s ease-in-out 1.8s
+}
+
+.ribbon .will-change {
+    will-change:transform
+}
+
+html.js.no-reduced-motion .ribbon.ribbon-hide .ribbon-wrapper {
+    color: #fff;
+    background-color: #0071E3;
+    -webkit-transform: translateY(-100%);
+    transform:translateY(-100%)
+}
+
+html.js.no-reduced-motion.aow .ribbon.ribbon-hide .ribbon-wrapper {
+    -webkit-transform: translateY(0px);
+    transform:translateY(0px)
+}
+
+html.js.no-reduced-motion .ribbon.ribbon-hide .icon-wrapper, html.js.no-reduced-motion .ribbon.ribbon-hide .icon-copy {
+    color:#fff
+}
+
+.ribbon + .section-content {
+    padding-top: auto;
+    margin-top:46px
+}
+
+@media only screen and (max-width: 1068px) {
+    .ribbon + .section-content {
+        padding-top:auto
+    }
+}
+
+@media only screen and (max-width: 735px) {
+    .ribbon + .section-content {
+        padding-top:66px
+    }
+}
+
+@media only screen and (max-width: 1068px) {
+    .ribbon + .section-content {
+        margin-top:46px
+    }
+}
+
+@media only screen and (max-width: 735px) {
+    .ribbon + .section-content {
+        margin-top:auto
+    }
+}
+.section-augmented-reality .ar-quicklook .column-copy .section-paragraph {
+    display:none
+}
+.ribbon a{
+    color:inherit;
+}
+
+.ribbon-content .rotation, .ribbon-education-pricing-content .rotation{
+	display: none;
+}
+.ribbon-content .rotation.rotation-show, .ribbon-education-pricing-content .rotation.rotation-show{
+	display: block;
+}
+.ribbon-content p+*, .ribbon-education-pricing-content p+*{
+    margin-top: 0;
+}
+.ac-gf-sosumi ul:first-child li{
+   display: none;
+}
+.ac-gf-sosumi ul li:last-child{
+   display:block;
+}
+.ac-gf-sosumi ul:first-child .show{
+   display: block;
+}
+
+
+/* AR */
+html .section-augmented-reality .ar-quicklook .column-copy .section-paragraph {
+    display:block
+}
+html.wechat-fix .section-augmented-reality .ar-quicklook .column-copy .section-paragraph {
+    display: block
+}
