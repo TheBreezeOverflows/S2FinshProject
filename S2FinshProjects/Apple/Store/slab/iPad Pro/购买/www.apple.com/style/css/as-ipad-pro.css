@@ -1,0 +1,647 @@
+﻿/*
+    iPad Pro Select CSS
+    ===============================================
+*/
+
+/* Animations START */
+
+.as-productdecision-selectionmedia {
+    cursor: default;
+}
+
+/* iPad Pro Selection Overrides  */
+
+
+.as-imagelist-content.gone {
+    display: none;
+}
+
+/* 23171149 */
+.overlay-nav li img {
+    width: auto;
+}
+
+
+/* 23110335 */
+.as-productdecision-family-ipad {
+    .as-dimension-capacity .as-dimension-summary {
+        position: relative;
+    }
+}
+
+/* 23170535 */
+.as-multipartsnogallery-container .form-choice-selector-label {
+    &:lang(en-US) {
+        padding-bottom: 0px;
+        padding-top: 0px;
+    }
+}
+.as-multipartsnogallery-image {
+    &:lang(en-US) {
+        max-width: 60px;
+        max-height: 60px;
+
+        @include viewport(small) {
+            max-width: 54px;
+            max-height: 54px;
+        }
+    }
+}
+
+.as-productdecision-header {
+    z-index: 2;
+}
+
+@media only screen and (max-device-width: 736px) and (max-width: 1023px) {
+    .as-productdecision-header {
+        margin-bottom: 0;
+    }
+}
+
+.as-productdecision-headerbox { z-index: 2; }
+
+/* INC060591030 */
+.as-dimension .form-choice-selector-label .form-label,.renderplayer-grabbable,.renderplayer-grabbing .renderplayer-grabbable,.replay:hover{cursor:pointer}
+
+.ru .as-purchaseinfo-chatonline {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.it .as-purchaseinfo-details .as-price-promotion > a sup {
+    font-size: 16px;
+    font-weight: 300;
+    bottom: .4em;
+}
+
+@media only screen and (max-width:736px) and (max-device-width:768px) {
+    .ru .as-purchaseinfo-chatonline {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+}
+
+.as-chatonline > div {
+    display: inline-block;
+}
+
+.hu .as-dimension-label .form-choiceselectorlabel-twocolright {
+    padding-left: 20px;
+}
+
+.fr .as-retailavailabilitysearch-searchactions {
+    bottom: -10px;
+}
+
+@media only screen and (max-device-width: 320px) {
+    .as-promo-img {
+        padding-right: 12px;
+    }
+}
+
+@media only screen
+and (min-device-width : 414px)
+and (max-device-width : 736px) {
+    .lu .as-dimension-label .form-choiceselectorlabel-twocolright,
+    .ch .as-dimension-label .form-choiceselectorlabel-twocolright {
+        width: auto;
+    }
+
+    .es .as-dimension-label .form-choiceselectorlabel-twocolright {
+        width: auto;
+    }
+}
+
+@media only screen and (max-device-width: 320px) {
+    .as-promo-img {
+        padding-right: 12px;
+    }
+}
+
+@media only screen and (max-width:736px) and (max-device-width:768px) {
+    .as-chatonline > div {
+        display: block;
+    }
+
+    .as-overlay-content .as-chatonline a {
+        white-space: nowrap;
+    }
+
+    .applecare_overlay .as-chatonline > div > span {
+        display: block;
+    }
+
+    .applecare_overlay .as-chatonline > div > span > a {
+        white-space: nowrap;
+    }
+
+    .cn .as-dimension-label .as-form-choiceselectorlabel-large {
+        letter-spacing: -0.04em
+    }
+
+    .hu .as-dimension-label .form-choiceselectorlabel-twocolright {
+        padding-left: 0;
+    }
+
+    /* <rdar://problem/32350968> DCM QA - [J207][MOW][Step 1][US]: Hero image doesn't match handoff */
+    .as-productdecision-selectionmedia-opengallerybtn {
+        margin: 12px 0 20px;
+    }
+
+    .as-dimension-Item1 .as-dimension-materializer-header {
+        margin-top: 0;
+    }
+
+    .as-dimension-Item1 .as-dimension-materializer-header .as-dimension-header {
+        border-top: solid 1px #d6d6d6;
+        padding-top: 18px;
+    }
+}
+
+/*Fix for INC063788474*/
+@media only screen and (min-width: 769px){
+    .pd-ipad-product-family-201706 .pd-billboard-product:lang(tr-TR) {
+        padding-right: 8%;
+    }
+}
+
+/*rdar://problem/37922808*/
+.as-promo-content.as-promo-content-hide a {
+  color: white;
+}
+/* Product Locator Geo Specific */
+.jp input[name=dimensionScreensize] + .form-choice-selector-label {
+    padding: 0 12px;
+}
+.fr input[name=dimensionScreensize] + .form-choice-selector-label {
+    padding: 0 8px;
+}
+@media only screen and (max-width:736px) and (max-device-width:768px) {
+    .jp input[name=dimensionScreensize] + .form-choice-selector-label {
+        padding: 0 8px;
+    }
+    .fr input[name=dimensionScreensize] + .form-choice-selector-label {
+        padding: 0 8px;
+    }
+}
+/* End of PL changes */
+
+/*set zero padding for no padding overlay*/
+.applecare_overlay .as-overlay-content.as-overlay-contentnopadding,
+.applecareplus_overlay .as-overlay-content.as-overlay-contentnopadding {
+    padding: 0;
+}
+
+/*rdar://problem/39483211*/
+.fr .as-productlocator-dimensions .form-choice-selector:checked~.form-choice-selector-label,
+.jp .as-productlocator-dimensions .form-choice-selector:checked~.form-choice-selector-label {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.as-productlocator-autocomplete ~ .as-productlocator-inputreset {
+    right: 15px;
+    top: 4px;
+}
+
+.rs-modularaccessory .as-addondetails-detail.rs-modularaccessory-learnmore {
+    width: 75%;
+}
+
+
+.rs-modularaccessory .as-addondetails-detail.rs-modularaccessory-learnmore p {
+    margin-top: -6px;
+}
+
+.rs-modularaccessory .as-icondetails-icon + .as-icondetails-detail {
+    padding-right: 5px;
+}
+
+.as-icondetails-detail .as-addondetails-label span {
+    white-space: nowrap;
+}
+
+@media only screen and (max-device-width: 736px) and (max-width: 1023px) {
+    .as-dimension-dimensionScreensize .form-choiceselectorlabel-twocolleft:lang(es-ES) {
+        white-space: normal;
+    }
+}
+
+@media only screen and (max-device-width: 736px) and (max-width: 1023px) {
+    .as-icondetails-detail .as-addondetails-label span {
+        white-space: normal;
+    }
+}
+
+.as-addondetails>.as-icondetails {
+    width: 75%;
+}
+
+.rs-modularaccessory .as-purchaseinfo-alignright {
+    width: 25%
+}
+
+@media only screen and (max-width: 1023px) and (max-device-width: 736px) {
+    .as-addondetails > .as-icondetails:lang(de) {
+        width: 70%;
+    }
+}
+
+@media only screen and (max-width: 1023px) and (max-device-width: 736px) {
+    .rs-modularaccessory .as-purchaseinfo-alignright:lang(de) {
+        width: 30%;
+    }
+}
+
+.rs-ipadpro .as-productlocator-filter .form-selector>.column:nth-child(n+3) {
+    margin-top: 4px;
+}
+
+.rs-ipadpro .as-zoomable {
+    padding-top: 76px;
+}
+
+@media only screen and (max-device-width: 736px) and (max-width: 1023px) {
+    .rs-ipadpro .as-zoomable {
+        padding-top: 10px;
+    }
+
+    .rs-ipadpro .as-dimension-Item1 .as-dimension,
+    .rs-ipadpro .as-dimension-Item1 .as-dimension-materializer-header .as-dimension-header {
+        border-top: 0;
+    }
+
+    .rs-modularaccessory {
+        border-top: 1px solid #d6d6d6;
+    }
+}
+
+@media only screen and (max-device-width: 736px) and (max-width: 1023px) {
+    .es .as-purchaseinfo-tradeup .as-tradeupbanner-columnlayout .as-tradeupbanner-content {
+        overflow: hidden;
+    }
+
+    .es .as-purchaseinfo-tradeup .as-tradeupbanner-columnlayout .as-tradeupbanner-message {
+        width: 64%;
+    }
+
+    .es .as-purchaseinfo-tradeup .as-tradeupbanner-columnlayout .as-tradeupbanner-button {
+        width: 26%;
+    }
+}
+
+.as-dimension-dimensionCapacity .form-choice-selector-label .form-label span:last-child,
+.as-dimension-dimensionConnection .form-choice-selector-label .form-label span:last-child,
+.as-dimension-color .form-choice-selector-label .form-label {
+    font-size: 12px;
+    line-height: 1.33341;
+    font-weight: 400;
+    letter-spacing: -0.01em;
+    font-family: "SF Pro Text", "SF Pro Icons", "AOS Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif; }
+    .as-dimension-color .form-choice-selector-label .form-label:lang(ar),
+    .as-dimension-dimensionCapacity .form-choice-selector-label .form-label:lang(ar) span:last-child,
+    .as-dimension-dimensionConnection .form-choice-selector-label .form-label:lang(ar) span:last-child {
+      line-height: 1.66667;
+      letter-spacing: 0em;
+      font-family: "SF Pro AR", "SF Pro Gulf", "SF Pro Text", "SF Pro Icons", "AOS Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif; }
+    .as-dimension-color .form-choice-selector-label .form-label:lang(ja),
+    .as-dimension-dimensionCapacity .form-choice-selector-label .form-label:lang(ja) span:last-child,
+    .as-dimension-dimensionConnection .form-choice-selector-label .form-label:lang(ja) span:last-child {
+      line-height: 1.41667;
+      letter-spacing: 0em;
+      font-family: "SF Pro JP", "SF Pro Text", "SF Pro Icons", "AOS Icons", "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", "メイリオ", "Meiryo", "ＭＳ Ｐゴシック", "Helvetica Neue", "Helvetica", "Arial", sans-serif; }
+    .as-dimension-color .form-choice-selector-label .form-label:lang(ko),
+    .as-dimension-dimensionCapacity .form-choice-selector-label .form-label:lang(ko) span:last-child,
+    .as-dimension-dimensionConnection .form-choice-selector-label .form-label:lang(ko) span:last-child {
+      line-height: 1.45841;
+      letter-spacing: 0em;
+      font-family: "SF Pro KR", "SF Pro Text", "SF Pro Icons", "AOS Icons", "Apple Gothic", "HY Gulim", "MalgunGothic", "HY Dotum", "Lexi Gulim", "Helvetica Neue", "Helvetica", "Arial", sans-serif; }
+    .as-dimension-color .form-choice-selector-label .form-label:lang(th),
+    .as-dimension-dimensionCapacity .form-choice-selector-label .form-label:lang(th) span:last-child,
+    .as-dimension-dimensionConnection .form-choice-selector-label .form-label:lang(th) span:last-child {
+      font-size: 12px;
+      line-height: 1.75;
+      letter-spacing: 0em;
+      font-family: "SF Pro TH", "SF Pro Text", "SF Pro Icons", "AOS Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif; }
+    .as-dimension-color .form-choice-selector-label .form-label:lang(zh),
+    .as-dimension-dimensionCapacity .form-choice-selector-label .form-label:lang(zh) span:last-child,
+    .as-dimension-dimensionConnection .form-choice-selector-label .form-label:lang(zh) span:last-child {
+      letter-spacing: 0em; }
+    .as-dimension-color .form-choice-selector-label .form-label:lang(zh-CN),
+    .as-dimension-dimensionCapacity .form-choice-selector-label .form-label:lang(zh-CN) span:last-child,
+    .as-dimension-dimensionConnection .form-choice-selector-label .form-label:lang(zh-CN) span:last-child {
+      font-family: "SF Pro SC", "SF Pro Text", "SF Pro Icons", "AOS Icons", "PingFang SC", "Helvetica Neue", "Helvetica", "Arial", sans-serif; }
+    .as-dimension-color .form-choice-selector-label .form-label:lang(zh-HK),
+    .as-dimension-dimensionCapacity .form-choice-selector-label .form-label:lang(zh-HK) span:last-child,
+    .as-dimension-dimensionConnection .form-choice-selector-label .form-label:lang(zh-HK) span:last-child {
+      font-family: "SF Pro HK", "SF Pro Text", "SF Pro Icons", "AOS Icons", "PingFang HK", "Helvetica Neue", "Helvetica", "Arial", sans-serif; }
+    .as-dimension-color .form-choice-selector-label .form-label:lang(zh-MO),
+    .as-dimension-dimensionCapacity .form-choice-selector-label .form-label:lang(zh-MO) span:last-child,
+    .as-dimension-dimensionConnection .form-choice-selector-label .form-label:lang(zh-MO) span:last-child {
+      font-family: "SF Pro HK", "SF Pro TC", "SF Pro Text", "SF Pro Icons", "AOS Icons", "PingFang HK", "Helvetica Neue", "Helvetica", "Arial", sans-serif; }
+    .as-dimension-color .form-choice-selector-label .form-label:lang(zh-TW),
+    .as-dimension-dimensionCapacity .form-choice-selector-label .form-label:lang(zh-TW) span:last-child,
+    .as-dimension-dimensionConnection .form-choice-selector-label .form-label:lang(zh-TW) span:last-child {
+      font-family: "SF Pro TC", "SF Pro Text", "SF Pro Icons", "AOS Icons", "PingFang TC", "Helvetica Neue", "Helvetica", "Arial", sans-serif;}
+
+.as-dimension-dimensionConnection .form-choice-selector.form-choice-selector-small ~ .form-choice-selector-label:lang(zh-CN) {
+        min-height: 90px;
+}
+
+.as-purchaseinfo-tradeup .as-tradeupbanner-columnlayout .as-tradeupbanner-button:lang(fr) {
+    margin-right: 2px;
+}
+
+.as-purchaseinfo-tradeup .as-tradeupbanner-columnlayout .as-tradeupbanner-message:lang(nl) {
+    width: 68%;
+}
+
+@media only screen and (max-width: 1023px) and (max-device-width: 736px) {
+    .as-purchaseinfo-tradeup .as-tradeupbanner-columnlayout .as-tradeupbanner-message:lang(de), .as-purchaseinfo-tradeup .as-tradeupbanner-columnlayout .as-tradeupbanner-message:lang(es), .as-purchaseinfo-tradeup .as-tradeupbanner-columnlayout .as-tradeupbanner-message:lang(fr), .as-purchaseinfo-tradeup .as-tradeupbanner-columnlayout .as-tradeupbanner-message:lang(nl) {
+        width: 63%;
+    }
+}
+
+@media only screen and (max-width: 1023px) and (max-device-width: 736px) {
+    .as-purchaseinfo-tradeup .as-tradeupbanner-columnlayout .as-tradeupbanner-button:lang(de), .as-purchaseinfo-tradeup .as-tradeupbanner-columnlayout .as-tradeupbanner-button:lang(es), .as-purchaseinfo-tradeup .as-tradeupbanner-columnlayout .as-tradeupbanner-button:lang(fr), .as-purchaseinfo-tradeup .as-tradeupbanner-columnlayout .as-tradeupbanner-button:lang(nl) {
+        width: 27%;
+    }
+}
+
+.as-purchaseinfo-tradeup .as-tradeupbanner-columnlayout .as-tradeupbanner-message:lang(ja) {
+    width: 64%;
+}
+
+.as-purchaseinfo-tradeup .as-tradeupbanner-columnlayout .as-tradeupbanner-button:lang(ja) {
+    width: 27%;
+}
+
+.as-purchaseinfo-tradeup .as-tradeupbanner-columnlayout .as-tradeupbanner-button:lang(zh-CN) {
+    width: 42%;
+}
+
+/* fixing https://cst.apple.com/tkt.do?tkt=INC071237189 */
+.rr-overlay-open {
+    position: relative;
+    z-index: -1;
+}
+
+.rr-overlay-open-ios {
+    position: fixed;
+}
+
+.as-productdecision-selectionarea:not(.as-buyflow-messages-hidedefaultfinancing) .as-buyflow-messagelinkcontainer {
+    display: none;
+}
+
+@media only screen and (max-device-width: 736px) and (max-width: 1023px) {
+    .as-purchaseinfo-price-section.as-l-container-full-small {
+        padding-left: calc((100vw - 100%)/2);
+        padding-right: calc((100vw - 100%)/2);
+    }
+
+    .as-promo-content {
+        text-align: center;
+    }
+}
+
+/* localnav overrides */
+.localnav-standard .localnav-title {
+    margin: 4px 0 8px;
+}
+
+.localnav-standard .localnav-links {
+    margin: 0 0 15px;
+}
+
+@media only screen and (max-width: 1023px) and (max-device-width: 736px) {
+    .localnav-standard .localnav-links {
+        margin: 0 48px;
+    }
+
+    .localnav-standard .localnav-title {
+        padding: 12px 16px 5px;
+        margin: 0;
+    }
+
+    .localnav-wrapper:after {
+        top: 48px;
+    }
+
+    .localnav-standard .localnav-persistent .disclosure-icon-small {
+        top: 6px;
+    }
+}
+
+.localnav-title,
+.localnav-title > .as-chiclets-wrap,
+.localnav-title > .as-chiclets-wrap .as-chiclets-text {
+    font-size: 21px;
+    line-height: 1.14286;
+    font-weight: 600;
+    letter-spacing: 0.011em;
+    font-family: "SF Pro Display", "SF Pro Icons", "AOS Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+
+.localnav-title:lang(th),
+.localnav-title > .as-chiclets-wrap:lang(th),
+.localnav-title > .as-chiclets-wrap .as-chiclets-text:lang(th) {
+    letter-spacing: 0em;
+    font-family: "SF Pro TH", "SF Pro Display", "SF Pro Icons", "AOS Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+
+.localnav-title:lang(ar),
+.localnav-title > .as-chiclets-wrap:lang(ar),
+.localnav-title > .as-chiclets-wrap .as-chiclets-text:lang(ar) {
+    font-family: "SF Pro AR", "SF Pro Gulf", "SF Pro Display", "SF Pro Icons", "AOS Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+
+.localnav-title:lang(ja),
+.localnav-title > .as-chiclets-wrap:lang(ja),
+.localnav-title > .as-chiclets-wrap .as-chiclets-text:lang(ja) {
+    font-family: "SF Pro JP", "SF Pro Display", "SF Pro Icons", "AOS Icons", "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", "メイリオ", "Meiryo", "ＭＳ Ｐゴシック", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+
+.localnav-title:lang(ko),
+.localnav-title > .as-chiclets-wrap:lang(ko),
+.localnav-title > .as-chiclets-wrap .as-chiclets-text:lang(ko) {
+    font-family: "SF Pro KR", "SF Pro Display", "SF Pro Icons", "AOS Icons", "Apple Gothic", "HY Gulim", "MalgunGothic", "HY Dotum", "Lexi Gulim", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+
+.localnav-title:lang(zh-CN),
+.localnav-title > .as-chiclets-wrap:lang(zh-CN),
+.localnav-title > .as-chiclets-wrap .as-chiclets-text:lang(zh-CN) {
+    font-family: "SF Pro SC", "SF Pro Display", "SF Pro Icons", "AOS Icons", "PingFang SC", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+
+.localnav-title:lang(zh-HK),
+.localnav-title > .as-chiclets-wrap:lang(zh-HK),
+.localnav-title > .as-chiclets-wrap .as-chiclets-text:lang(zh-HK) {
+    font-family: "SF Pro HK", "SF Pro Display", "SF Pro Icons", "AOS Icons", "PingFang HK", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+
+.localnav-title:lang(zh-MO),
+.localnav-title > .as-chiclets-wrap:lang(zh-MO),
+.localnav-title > .as-chiclets-wrap .as-chiclets-text:lang(zh-MO) {
+    font-family: "SF Pro HK", "SF Pro TC", "SF Pro Display", "SF Pro Icons", "AOS Icons", "PingFang HK", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+
+.localnav-title:lang(zh-TW),
+.localnav-title > .as-chiclets-wrap:lang(zh-TW),
+.localnav-title > .as-chiclets-wrap .as-chiclets-text:lang(zh-TW) {
+    font-family: "SF Pro TC", "SF Pro Display", "SF Pro Icons", "AOS Icons", "PingFang TC", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+
+@media only screen and (max-width: 1023px) and (max-device-width: 736px) {
+    .localnav-title,
+    .localnav-title > .as-chiclets-wrap,
+    .localnav-title > .as-chiclets-wrap .as-chiclets-text {
+        font-size: 19px;
+        line-height: 1.26316;
+        font-weight: 600;
+        letter-spacing: 0.012em;
+        font-family: "SF Pro Display", "SF Pro Icons", "AOS Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    }
+
+    .localnav-title:lang(th),
+    .localnav-title > .as-chiclets-wrap:lang(th),
+    .localnav-title > .as-chiclets-wrap .as-chiclets-text:lang(th) {
+        letter-spacing: 0em;
+        font-family: "SF Pro TH", "SF Pro Display", "SF Pro Icons", "AOS Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    }
+
+    .localnav-title:lang(ar),
+    .localnav-title > .as-chiclets-wrap:lang(ar),
+    .localnav-title > .as-chiclets-wrap .as-chiclets-text:lang(ar) {
+        font-family: "SF Pro AR", "SF Pro Gulf", "SF Pro Display", "SF Pro Icons", "AOS Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    }
+
+    .localnav-title:lang(ja),
+    .localnav-title > .as-chiclets-wrap:lang(ja),
+    .localnav-title > .as-chiclets-wrap .as-chiclets-text:lang(ja) {
+        font-family: "SF Pro JP", "SF Pro Display", "SF Pro Icons", "AOS Icons", "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", "メイリオ", "Meiryo", "ＭＳ Ｐゴシック", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    }
+
+    .localnav-title:lang(ko),
+    .localnav-title > .as-chiclets-wrap:lang(ko),
+    .localnav-title > .as-chiclets-wrap .as-chiclets-text:lang(ko) {
+        font-family: "SF Pro KR", "SF Pro Display", "SF Pro Icons", "AOS Icons", "Apple Gothic", "HY Gulim", "MalgunGothic", "HY Dotum", "Lexi Gulim", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    }
+
+    .localnav-title:lang(zh-CN),
+    .localnav-title > .as-chiclets-wrap:lang(zh-CN),
+    .localnav-title > .as-chiclets-wrap .as-chiclets-text:lang(zh-CN) {
+        font-family: "SF Pro SC", "SF Pro Display", "SF Pro Icons", "AOS Icons", "PingFang SC", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    }
+
+    .localnav-title:lang(zh-HK),
+    .localnav-title > .as-chiclets-wrap:lang(zh-HK),
+    .localnav-title > .as-chiclets-wrap .as-chiclets-text:lang(zh-HK) {
+        font-family: "SF Pro HK", "SF Pro Display", "SF Pro Icons", "AOS Icons", "PingFang HK", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    }
+
+    .localnav-title:lang(zh-MO),
+    .localnav-title > .as-chiclets-wrap:lang(zh-MO),
+    .localnav-title > .as-chiclets-wrap .as-chiclets-text:lang(zh-MO) {
+        font-family: "SF Pro HK", "SF Pro TC", "SF Pro Display", "SF Pro Icons", "AOS Icons", "PingFang HK", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    }
+
+    .localnav-title:lang(zh-TW),
+    .localnav-title > .as-chiclets-wrap:lang(zh-TW),
+    .localnav-title > .as-chiclets-wrap .as-chiclets-text:lang(zh-TW) {
+        font-family: "SF Pro TC", "SF Pro Display", "SF Pro Icons", "AOS Icons", "PingFang TC", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    }
+}
+
+.as-productdecision-selectionmedia-swapimage img {
+    min-height: 0;
+}
+
+/* fix for witb gallery in MOW not adding 'current' class before being interacted */
+.rs-buyflow-witb .dotnav-item[aria-selected='true'] {
+    background-color: #888;
+    cursor: default;
+}
+
+/* fix key features forward fade animation */
+.as-productdecision-dcmcarousel .ase-gallery-item.ase-gallery-fading {
+    z-index: 1;
+}
+
+.as-productdecision-dcmcarousel .paddlenav-framed .paddlenav-arrow {
+    background-color: hsla(0,0%,83.9%,.75);
+}
+
+.as-productdecision-dcmcarousel .paddlenav-framed .paddlenav-arrow:hover {
+    background-color: hsla(0,0%,83.9%,.80);
+}
+
+/* Fix for new gallery is too wide on iPad devices */
+@media only screen and (min-device-width: 768px) and (max-width: 1068px) {
+    .as-zoomable-inlinecontainer {
+        max-width: 1024px;
+    }
+}
+
+/* Fix for engraving icon cut off */
+.as-engraving-container {
+    padding-top: 30px;
+}
+
+@media only screen and (max-device-width: 736px) and (max-width: 1023px) {
+    .as-engraving-container {
+        padding-top: 14px;
+    }
+}
+
+.as-productdecision-stickybox .as-chat-buyflow,
+.as-productdecision-stickybox .as-buystrip {
+    max-width: 490px;
+}
+
+.as-purchaseinfo .as-purchaseinfo-chatonline {
+    display: block;
+}
+
+.us .as-purchaseinfo .as-purchaseinfo-chatonline {
+    display: none;
+}
+
+@media only screen and (max-device-width: 736px) and (max-width: 1023px) {
+    .as-purchaseinfo .as-purchaseinfo-chatonline {
+        padding-top: 20px;
+        border-top: 0;
+    }
+
+    .us .as-purchaseinfo .as-purchaseinfo-chatonline {
+        padding-top: 0;
+        border-top: 1px solid #ddd;
+        display: block;
+    }
+}
+
+.as-buystrip-image img {
+    margin-top: -4px;
+}
+
+.as-buystrip-image + .as-buystrip-title {
+    margin-top: -3px;
+}
+
+.as-tradeupbanner-columnlayout .as-tradeupbanner-icon {
+    height: 25px;
+    width: auto;
+}
+
+.in .as-price-installments .icon-infocircle:before {
+    display: none;
+}
+
+.in .as-purchaseinfo-details .as-price-currentprice {
+    font-size: 32px;
+    line-height: 1.125;
+    font-weight: 400;
+    letter-spacing: .004em;
+    font-family: SF Pro Display, SF Pro Icons, AOS Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-weight: 600
+}

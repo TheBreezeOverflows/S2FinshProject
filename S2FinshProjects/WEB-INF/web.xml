@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+  <display-name>S2FinshProjects</display-name>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AddServlet</servlet-name>
+    <servlet-class>S2FinshProject.apple.action.AddServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetSupport</servlet-name>
+    <servlet-class>S2FinshProject.apple.action.GetSupport</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetUserShow</servlet-name>
+    <servlet-class>S2FinshProject.apple.action.GetUserShow</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>LoginServlet</servlet-name>
+    <servlet-class>S2FinshProject.apple.action.LoginServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>a</servlet-name>
+    <servlet-class>S2FinshProject.apple.action.a</servlet-class>
+  </servlet>
+	<!-- 欧阳 -->
+  <servlet>
+    <servlet-name>purchaseinfo</servlet-name>
+    <servlet-class>S2FinshProject.apple.ouyang.action.purchaseinfo</servlet-class>
+  </servlet>
+  
+  <servlet>
+    <servlet-name>deletechaseinfo</servlet-name>
+    <servlet-class>S2FinshProject.apple.ouyang.action.deletechaseinfo</servlet-class>
+  </servlet>
+  
+  <servlet>
+    <servlet-name>order_historyselect</servlet-name>
+    <servlet-class>S2FinshProject.apple.ouyang.action.order_historyselect</servlet-class>
+  </servlet>
+
+	<servlet>
+    <servlet-name>order_deng</servlet-name>
+    <servlet-class>S2FinshProject.apple.ouyang.action.action.order_deng</servlet-class>
+  </servlet>
+  
+  <servlet>
+    <servlet-name>collect_infocha</servlet-name>
+    <servlet-class>S2FinshProject.apple.ouyang.action.collect_infocha</servlet-class>
+  </servlet>
+  
+  <servlet>
+    <servlet-name>collect_infoinsert</servlet-name>
+    <servlet-class>S2FinshProject.apple.ouyang.action.collect_infoinsert</servlet-class>
+  </servlet>
+  
+  <servlet>
+    <servlet-name>collect_delete</servlet-name>
+    <servlet-class>S2FinshProject.apple.ouyang.action.collect_delete</servlet-class>
+  </servlet>
+  
+
+
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>AddServlet</servlet-name>
+    <url-pattern>/Adduser</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetSupport</servlet-name>
+    <url-pattern>/support</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetUserShow</servlet-name>
+    <url-pattern>/Getcommodity</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LoginServlet</servlet-name>
+    <url-pattern>/loginname</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>a</servlet-name>
+    <url-pattern>/aa</url-pattern>
+  </servlet-mapping>
+  
+  <!-- 欧阳 -->
+  
+  
+  <servlet-mapping>
+    <servlet-name>purchaseinfo</servlet-name>
+    <url-pattern>/purchaseinfo</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>deletechaseinfo</servlet-name>
+    <url-pattern>/deletechaseinfo</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>order_historyselect</servlet-name>
+    <url-pattern>/order_historyselect</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>order_deng</servlet-name>
+    <url-pattern>/order_deng</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>collect_infocha</servlet-name>
+    <url-pattern>/collect_infocha</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>collect_infoinsert</servlet-name>
+    <url-pattern>/collect_infoinsert</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>collect_delete</servlet-name>
+    <url-pattern>/collect_delete</url-pattern>
+  </servlet-mapping>
+  
+  
+  
+  
+  
+  
+  
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>

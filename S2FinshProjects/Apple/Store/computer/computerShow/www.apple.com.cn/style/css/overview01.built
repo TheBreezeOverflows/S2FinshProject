@@ -1,0 +1,222 @@
+﻿/********** Local CSS **********/
+
+.section-connections .subsection-hero .connections-pins-figure-wrapper .pins-wrapper {
+    left: 241px;
+}
+
+.section-connections .subsection-hero .connections-pins-figure-wrapper .pins-wrapper .pin-caption-headphone .typography-caption{
+	margin-left: -23px;
+}
+
+.section-connections .subsection-hero .connections-pins-figure-wrapper .pins-wrapper .pin-caption-sd-card .typography-caption{
+	margin-left: 12px;
+}
+
+.section-connections .subsection-hero .connections-pins-figure-wrapper .pins-wrapper .pin-caption-usb .typography-caption{
+	margin-left: -2px;
+}
+
+.section-connections .subsection-hero .connections-pins-figure-wrapper .pins-wrapper .pin-caption-thunderbolt .typography-caption{
+	margin-left: 20px;
+}
+
+.section-connections .subsection-hero .connections-pins-figure-wrapper .pins-wrapper .pin-caption-ethernet .typography-caption{
+	margin-left: 3px;
+}
+
+@media only screen and (max-width: 1068px) {
+	.section-connections .subsection-hero .connections-pins-figure-wrapper .pins-wrapper {
+    left: 154px;
+}
+
+	.section-connections .subsection-hero .connections-pins-figure-wrapper .pins-wrapper .pin-caption-headphone .typography-caption{
+	margin-left: -3px;
+}
+
+	.section-connections .subsection-hero .connections-pins-figure-wrapper .pins-wrapper .pin-caption-sd-card .typography-caption{
+	margin-left: -4px;
+}
+
+	.section-connections .subsection-hero .connections-pins-figure-wrapper .pins-wrapper .pin-caption-usb .typography-caption{
+	margin-left: 1px;
+}
+
+	.section-connections .subsection-hero .connections-pins-figure-wrapper .pins-wrapper .pin-caption-thunderbolt .typography-caption{
+	margin-left: 28px;
+}
+
+	.section-connections .subsection-hero .connections-pins-figure-wrapper .pins-wrapper .pin-caption-ethernet .typography-caption{
+	margin-left: -1px;
+	}
+}
+
+@media only screen and (max-width: 734px) {
+	.section-connections .subsection-hero .connections-pins-figure-wrapper .pins-wrapper {
+    left: 369px;
+}
+
+	.section-connections .subsection-hero .connections-pins-figure-wrapper .pins-wrapper .pin-caption-headphone .typography-caption{
+	margin-left: 37px;
+}
+
+	.section-connections .subsection-hero .connections-pins-figure-wrapper .pins-wrapper .pin-caption-sd-card .typography-caption{
+	margin-left: 6px;
+}
+
+	.section-connections .subsection-hero .connections-pins-figure-wrapper .pins-wrapper .pin-caption-usb .typography-caption{
+	margin-left: -4px;
+}
+
+	.section-connections .subsection-hero .connections-pins-figure-wrapper .pins-wrapper .pin-caption-thunderbolt .typography-caption{
+	margin-left: 11px;
+}
+
+	.section-connections .subsection-hero .connections-pins-figure-wrapper .pins-wrapper .pin-caption-ethernet .typography-caption{
+	margin-left: 2px;
+	}
+}
+/* ribbon */
+
+.ribbon {
+    width: 100%;
+    overflow: hidden;
+    position: absolute;
+    z-index: 3;
+    top:96px
+}
+
+.ribbon-wrapper {
+    width: 100%;
+    padding: 13px 0;
+    text-align: center;
+    color: #333;
+    background-color: #ffffff;
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    -webkit-transition: background-color 1s ease-in-out 1.8s, color 1s ease-in-out 1.8s, -webkit-transform .8s ease-in-out;
+    transition: background-color 1s ease-in-out 1.8s, color 1s ease-in-out 1.8s, -webkit-transform .8s ease-in-out;
+    transition: transform .8s ease-in-out, background-color 1s ease-in-out 1.8s, color 1s ease-in-out 1.8s;
+    transition:transform .8s ease-in-out, background-color 1s ease-in-out 1.8s, color 1s ease-in-out 1.8s, -webkit-transform .8s ease-in-out
+}
+
+.ribbon-content {
+    margin-left: auto;
+    margin-right: auto;
+    width: 980px;
+    display:block
+}
+
+@media only screen and (min-width: 1442px) {
+    .ribbon-content {
+        margin-left: auto;
+        margin-right: auto;
+        width:980px
+    }
+}
+
+@media only screen and (max-width: 1068px) {
+    .ribbon-content {
+        margin-left: auto;
+        margin-right: auto;
+        width:692px
+    }
+}
+
+@media only screen and (max-width: 735px) {
+    .ribbon-content {
+        margin-left: auto;
+        margin-right: auto;
+        width:87.5%
+    }
+}
+
+@media only screen and (max-width: 735px) {
+    .ribbon-content {
+        margin-left: auto;
+        margin-right: auto;
+        max-width:303px
+    }
+}
+
+.ribbon .icon-wrapper, .ribbon .icon-copy {
+    color: #0070c9;
+    -webkit-transition: color 1s ease-in-out 1.8s;
+    transition:color 1s ease-in-out 1.8s
+}
+
+.ribbon .will-change {
+    will-change:transform
+}
+
+html.js.no-reduced-motion .ribbon.ribbon-hide .ribbon-wrapper {
+    color: #fff;
+    background-color: #338dd4;
+    -webkit-transform: translateY(-100%);
+    transform:translateY(-100%)
+}
+
+html.js.no-reduced-motion.aow .ribbon.ribbon-hide .ribbon-wrapper {
+    -webkit-transform: translateY(0px);
+    transform:translateY(0px)
+}
+
+html.js.no-reduced-motion .ribbon.ribbon-hide .icon-wrapper, html.js.no-reduced-motion .ribbon.ribbon-hide .icon-copy {
+    color:#fff
+}
+
+.ribbon + .section-content {
+    padding-top: auto;
+    margin-top:46px
+}
+
+@media only screen and (max-width: 1068px) {
+    .ribbon + .section-content {
+        padding-top:auto
+    }
+}
+
+@media only screen and (max-width: 735px) {
+    .ribbon + .section-content {
+        padding-top:66px
+    }
+}
+
+@media only screen and (max-width: 1068px) {
+    .ribbon + .section-content {
+        margin-top:46px
+    }
+}
+
+@media only screen and (max-width: 735px) {
+    .ribbon + .section-content {
+        margin-top:auto
+    }
+}
+
+.section-hero {
+    margin-top: 46px;
+}
+
+@media only screen and (max-width: 1068px) {
+    .section-hero {
+        margin-top:46px;
+    }
+}
+
+@media only screen and (max-width: 735px) {
+    .section-hero {
+        margin-top:66px;
+    }
+}
+.ribbon a{
+    color:inherit;
+}
+.ac-ls-visible .ribbon{
+    top: 207px
+}
+
+@media only screen and (max-width: 767px) {
+    .ac-ls-visible .ribbon{
+    top: 276px
+}
+}

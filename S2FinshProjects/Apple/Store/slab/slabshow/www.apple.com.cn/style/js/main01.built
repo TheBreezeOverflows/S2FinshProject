@@ -1,0 +1,9 @@
+// if(document.querySelector('[data-component="rotation"]')){let rotationGroup=[];let rotationLi=[];let randomArr=[0,1];let randomNum=randomArr[Math.floor((Math.random()*randomArr.length))];rotationGroup[0]=document.querySelectorAll('.rotation')[0];rotationGroup[1]=document.querySelectorAll('.rotation')[1];if(localStorage.getItem('rotationIndex')==null){rotationGroup[randomNum].classList.add('rotation-show');document.querySelectorAll('.ac-gf-sosumi ul li')[randomNum].classList.add('show');document.querySelectorAll('.ac-gf-sosumi ul li')[randomNum].id='footnote-1';localStorage.setItem('id',randomNum);localStorage.setItem('rotationIndex',"1")}else{if(localStorage.getItem('id')==0){rotationGroup[1].classList.add('rotation-show');document.querySelectorAll('.ac-gf-sosumi ul li')[1].classList.add('show');document.querySelectorAll('.ac-gf-sosumi ul li')[1].id='footnote-1';document.querySelectorAll('.ac-gf-sosumi ul li')[0].remove();rotationGroup[0].classList.remove('rotation-show');localStorage.setItem('id',"1")}else{rotationGroup[0].classList.add('rotation-show');rotationGroup[1].classList.remove('rotation-show');document.querySelectorAll('.ac-gf-sosumi ul li')[0].classList.add('show');document.querySelectorAll('.ac-gf-sosumi ul li')[0].id='footnote-1';document.querySelectorAll('.ac-gf-sosumi ul li')[1].remove();localStorage.setItem('id',"0")}}}
+let id = localStorage.getItem('rotationIndex') == undefined ? Math.random() > 0.5 ? 0 : 1 : localStorage.getItem('rotationIndex');
+				
+				id = parseInt(id);
+
+				document.querySelectorAll('.rotation')[id].classList.add('rotation-show');
+				document.querySelectorAll('.ac-gf-sosumi ul:first-child li')[id].classList.add('show');
+				document.querySelectorAll('.ac-gf-sosumi ul:first-child li')[id].id='footnote-1';
+				localStorage.setItem('rotationIndex', Math.abs(id - 1));
